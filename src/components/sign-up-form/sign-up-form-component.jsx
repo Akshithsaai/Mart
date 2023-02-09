@@ -1,4 +1,4 @@
-import { async } from "@firebase/util";
+
 import { useState } from "react";
 
 import FormInput from "../form-input/form.input.component";
@@ -55,7 +55,7 @@ const SignUpForm = () => {
 
     return (
         <div className="sign-up-container">
-            <h2>don't have an account? </h2>
+            <h2>Don't have an account? </h2>
             <span>Sign up with your email and password </span>
             <form onSubmit={handleSubmit}>
                 
